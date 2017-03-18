@@ -1,3 +1,4 @@
-command-master is a training tool of command line.
+# コマンドマスター
 
-This may help you to improve your skill of command line.
+* Linuxコマンド練習用のディレクトリです。
+
