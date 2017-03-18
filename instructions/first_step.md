@@ -82,3 +82,5 @@ $ cat -n users.csv
 5  4,"nakamura","m","00048"
 ...
 ```
+
+[次のステップに進む](https://github.com/imadashodai/command-master/blob/master/instructions/second_step.md)

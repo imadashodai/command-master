@@ -136,3 +136,7 @@ $ rm -r osushi
 $ls
 
 ```
+
+[前のステップに戻る](https://github.com/imadashodai/command-master/blob/master/instructions/first_step.md)
+
+[次のステップに進む](#)
