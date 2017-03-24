@@ -89,6 +89,6 @@ $ grep 'tanaka' users.tsv | wc -l
 ```
 ※最後に登場したwcは行数や文字数を数えるコマンド
 
-[前のステップに戻る](https://github.com/imadashodai/command-master/blob/master/instructions/first_step.md)
+[前のステップに戻る](https://github.com/imadashodai/command-master/blob/master/instructions/second_step.md)
 
 [次のステップに進む](#)
