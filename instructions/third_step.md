@@ -43,13 +43,28 @@ $ sort -r users.csv
 $ grep 'takahashi' users.csv
 ```
 
-### 5. Practice
+### 5. ディレクトリやファイルを検索
+* find [ディレクトリ] [検索条件]
+
+|オプション|意味|
+|:--|--:|
+|-name|ファイル名を指定|
+|-empty|空のファイル|
+|-type f|ファイルを検索|
+|-type d|ディレクトリを検索|
+
+```
+$ find instructions -name '*step.md'
+```
+
+### 6. Practice
 1. users.csvの上から5行目までを出力しよう。
 2. users.tsvの下から3行目までを出力しよう。
 3. users.csvを"no"の昇順に並べよう。
 4. users.tsvに"tanaka"が何人いるか調べよう。
+5. collectionディレクトリの中に「user」がつくファイルがいくつあるか調べよう。
 
-### 6. Answer
+### 7. Answer
 1. users.csvの上から5行目までを出力しよう。
 
 ```
@@ -88,6 +103,14 @@ $ grep 'tanaka' users.tsv | wc -l
 2
 ```
 ※最後に登場したwcは行数や文字数を数えるコマンド
+
+5. collectionディレクトリの中に「user」がつくファイルがいくつあるか調べよう。
+
+```
+$ find collection -name 'user*' | wc -l
+
+2
+```
 
 [前のステップに戻る](https://github.com/imadashodai/command-master/blob/master/instructions/second_step.md)
 
